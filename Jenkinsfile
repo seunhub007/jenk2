@@ -14,10 +14,10 @@ pipeline{
                 sh '''
                         echo "welcome to the production. Added Jenkins"
 
-                        sudo apt-get install nginx -y
+                        sudo apt install nginx -y
                         sudo systemctl start nginx
 
-                        sudo apt-get update -y
+                        sudo apt update -y
 
                         cd /var/www
 
