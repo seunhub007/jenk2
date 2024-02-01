@@ -12,7 +12,7 @@ pipeline{
         stage('production'){
             steps{
                 sh '''
-                        echo "welcome to the production. Added Jenkins"
+                        echo "welcome to the production. Added Jenkins nowg"
 
                         sudo apt install nginx -y
                         sudo systemctl enable nginx
