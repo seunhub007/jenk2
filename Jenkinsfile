@@ -17,7 +17,7 @@ pipeline{
                         sudo apt-get install nginx -y
                         sudo systemctl start nginx
 
-                        sudo apt update -y
+                        sudo apt-get update -y
 
                         cd /var/www
 
