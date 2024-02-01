@@ -24,7 +24,7 @@ pipeline{
                         sudo rm -rf html
                         sudo mkdir html
 
-                        sudo git clone https://github.com/seunhub007/jenk2.git
+                        sudo git clone https://github.com/seunhub007/jenk2.git .
 
                    '''
             }
