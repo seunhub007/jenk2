@@ -15,6 +15,7 @@ pipeline{
                         echo "welcome to the production. Added Jenkins"
 
                         sudo apt install nginx -y
+                        sudo systemctl enable
                         sudo systemctl start nginx
 
                         sudo apt update -y
@@ -24,7 +25,7 @@ pipeline{
                         sudo rm -rf html
                         sudo mkdir html
 
-                        sudo git clone https://github.com/seunhub007/jenk2.git .
+                        sudo git clone https://github.com/seunhub007/jenk2.git html
 
                    '''
             }
